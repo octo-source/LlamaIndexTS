@@ -1,5 +1,12 @@
 # examples
 
+## 0.3.27
+
+### Patch Changes
+
+- Updated dependencies [229cdeb]
+  - @llamaindex/groq@0.0.79
+
 ## 0.3.26
 
 ### Patch Changes
