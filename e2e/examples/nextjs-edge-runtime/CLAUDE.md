@@ -88,7 +88,7 @@ From the workspace root:
 **Core Dependencies:**
 
 - `llamaindex` - Main LlamaIndexTS package (workspace dependency)
-- `next` - Next.js framework (v15.3.0)
+- `next` - Next.js framework (v15.5.28)
 - `react` & `react-dom` - React framework (v19.x)
 
 **Development Dependencies:**
