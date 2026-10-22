@@ -1,0 +1,13 @@
+diff --git a/dist/lib/plugins/vite-plugin-rsc-rsdw.js b/dist/lib/plugins/vite-plugin-rsc-rsdw.js
+index e45adaff0acb2d58944d150391c6519da1f0c220..3b879796e8ec67dd85bc124b67ab4ffb42d01c4d 100644
+--- a/dist/lib/plugins/vite-plugin-rsc-rsdw.js
++++ b/dist/lib/plugins/vite-plugin-rsc-rsdw.js
+@@ -59,6 +59,8 @@ export function rscRsdwPlugin() {
+                 return patchRsdw(code, 'SERVER');
+             }
+             if ([
++                '/react-server-dom-webpack-client.node.production.js',
++                '/react-server-dom-webpack-client.node.development.js',
+                 '/react-server-dom-webpack-client.edge.production.js',
+                 '/react-server-dom-webpack-client.edge.development.js',
+                 '/react-server-dom-webpack-client.browser.production.js',

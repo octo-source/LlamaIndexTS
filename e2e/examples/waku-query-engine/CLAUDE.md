@@ -68,7 +68,7 @@ The core LlamaIndex functionality is implemented in `src/actions.ts`:
 - `@llamaindex/env` - Runtime environment compatibility
 - `llamaindex` - Main LlamaIndexTS package for document indexing and querying
 - `waku` - React framework for SSR/SSG
-- `react` & `react-dom` - React 19.0.0 with experimental features
+- `react` & `react-dom` - React 19.1.10, aligned with Waku's React 19.1 peer requirements
 - `react-server-dom-webpack` - React Server Components support
 
 **Development Dependencies:**
